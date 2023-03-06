@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --roboto-font: "Roboto"
+}
+
+*{
+    font-family: inherit;
+}
+
+@layer base {
+    body{
+        @apply bg-[#272727] text-white
+    }
+}
