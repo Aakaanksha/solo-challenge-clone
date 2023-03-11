@@ -11,8 +11,6 @@ const Check = ({ checkStatus, anime, setAnime }) => {
     });
   }, []);
 
-  console.log("anime:", anime);
-
   return (
     <div
       ref={check}

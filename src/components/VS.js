@@ -6,7 +6,7 @@ import VSComponent from "./VSComponent";
 
 const VS = () => {
   return (
-    <div className="mt-20 h-[calc(100vh-140px)] relative">
+    <div className="mt-20 min-h-[calc(100vh-140px)] relative">
       <VSComponent />
 
       <div className="mt-6">
